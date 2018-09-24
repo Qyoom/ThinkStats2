@@ -14,6 +14,9 @@ import thinkstats2
 from collections import defaultdict
 
 
+def test1():
+    return "test1"
+
 def ReadFemResp(dct_file='2002FemResp.dct',
                 dat_file='2002FemResp.dat.gz',
                 nrows=None):
@@ -157,6 +160,8 @@ def main():
     # of entries in `preg`
     assert(ValidatePregnum(resp, preg))
 
+    # RW
+    assert(test1() == "test1")
     
     print('All tests passed.')
 
