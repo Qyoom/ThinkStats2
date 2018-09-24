@@ -10,10 +10,10 @@ from __future__ import print_function
 import numpy as np
 import sys
 
-#import nsfg
+import nsfg
 import thinkstats2
 
-# This is just a direct copy of Downey's provided function.
+# RW: This is just a direct copy of Downey's provided function.
 # I've decided not to get bogged down in the low level utility mechanics
 # in my study in this book. My purpose is learning statists theory and algorithms 
 # and ideomatic python generally. Just use whatever utility methods are provided
